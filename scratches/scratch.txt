@@ -1,0 +1,53 @@
+{'A, 'B, 'C, 'D, 'E, 'F, 'G, 'H, 'I, 'J, 'K, 'L, 'M, 'N, 'O, 'P, 'Q, 'R, 'S, 'T, 'U, 'V, 'W, 'X, 'Y, 'Z}
+
+
+[('D', 0), ('E', 0), ('W', 0), ('P', 3), ('Y', 4), ('F', 13), ('S', 14), ('K', 15), ('A', 16), ('Z', 22), ('J', 23), ('R', 25), ('B', 27), ('N', 27),
+ ('O', 33), ('L', 35), ('M', 38), ('Q', 54), ('T', 67), ('C', 76), ('V', 83), ('I', 89), ('U', 90), ('H', 95), ('G', 118), ('X', 128)]
+
+1095
+
+bigrams
+[('UB', 1), ('UV', 1), ('LI', 1), ('UC', 1), ('CI', 1), ('RJ', 1), ('KI', 1), ('IC', 1), ('HC', 2), ('IT', 2), ('VI', 3), ('NA', 3), ('HV', 3), ('HZ', 3), ('HG', 4), ('IZ', 4), ('NX', 5), ('GI', 15)]
+
+('GI', 15) = th
+//('NX', 5) = he / in / er /an
+
+#trigrams
+
+[('NRG', 1), ('OUS', 1), ('UOO', 1), ('UTX', 1), ('JRG', 1), ('XCL', 1), ('ISC', 1), ('QUL', 1), ('GII', 1), ('CIT', 1), ('ZIT', 1), ('UCA', 2), ('NUL', 2), ('SQI', 2), ('OXG', 2), ('KIG', 2), ('MUC', 2), ('HGV', 2), ('CIG', 3), ('QUV', 3), ('UCL', 5), ('GQX', 11)]
+gqx=the
+('UCL', 5)= and / ing
+CIG' =ing
+
+A, B, 'C, 'D, 'E, 'F, 'G, 'H, 'I, 'J, 'K, 'L, 'M, 'N, 'O, 'P, 'Q, 'R, 'S, 'T, 'U, 'V, 'W, 'X, 'Y, 'Z'
+A, B, 'C, 'D, 'E, 'F, 'T, 'H, 'H, 'J, 'K, 'L, 'M, 'N, 'O, 'P, 'H, 'R, 'S, 'T, 'U, 'V, 'W, 'E, 'Y, 'Z'
+
+
+A, B, 'C, 'D, 'E, 'F, 'G, 'H, 'I, 'J, 'K, 'L, 'M, 'N, 'O, 'P, 'Q, 'R, 'S, 'T, 'U, 'V, 'W, 'X, 'Y, 'Z'
+Y  M   S   X   Q   V   T   A   I   F   P   L   D   U   C   J   R   W   B   H   O   N   Z   E   K   G
+
+
+depois substitui o R por h para ficar the
+
+depois substitui o R('UCL', 5) por and  usando trigrama
+
+epois substitui o gqx por the  usando trigrama
+
+procurar palavras acabadas por T que tenham duas letras = IT
+
+substitur l pelo c LANNOT = para cannot
+
+substituir F pelo p AFFEAR = appear
+
+nesta frase  UE CIVILISED tem sentido que UE seja BE, substituir o U por B
+
+nesta frase SO LONF tem sentido que  lonf seja long sunbstituir o f por g
+nesta frase BWT I AM NOT  tem sentido que bwt passe a but substituir o w por u
+
+nesta frase  INVOJE ASSISTANCE tem sentido que o j passe a k para invoke
+
+SUCCUMB TO ITS VANJUISHED ENEMY tem sentido que o j passe a ser q para VANQUISHED
+
+#ABCDEFGHIJKLMNOPQRSTUVWXYZ
+    #YMSXQVTAIFPLDUCJHWBRONZEKG
+
